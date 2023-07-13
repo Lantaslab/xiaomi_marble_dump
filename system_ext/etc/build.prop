@@ -1,0 +1,35 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_ext.brand=generic
+ro.product.system_ext.device=marble
+ro.product.system_ext.manufacturer=Xiaomi
+ro.product.system_ext.model=evolution_marble
+ro.product.system_ext.name=evolution_marble
+ro.system_ext.build.date=Wed Jul 12 14:22:21 UTC 2023
+ro.system_ext.build.date.utc=1689171741
+ro.system_ext.build.fingerprint=generic/evolution_marble/marble:13/TQ3A.230705.001.B4/ubuntu07121422:userdebug/release-keys
+ro.system_ext.build.id=TQ3A.230705.001.B4
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=userdebug
+ro.system_ext.build.version.incremental=1689171750
+ro.system_ext.build.version.release=13
+ro.system_ext.build.version.release_or_codename=13
+ro.system_ext.build.version.sdk=33
+####################################
+# from device/xiaomi/marble/configs/properties/system_ext.prop
+####################################
+# Bluetooth
+persist.bluetooth.bluetooth_audio_hal.disabled=false
+persist.bluetooth.a2dp_offload.disabled=true
+ro.bluetooth.a2dp_offload.supported=false
+# DPM
+persist.vendor.dpm.feature=1
+# RIL
+telephony.active_modems.max_count=2
+####################################
+# from variable PRODUCT_SYSTEM_EXT_PROPERTIES
+####################################
+arm64.memtag.process.system_server=off
+# end of file
